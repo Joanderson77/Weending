@@ -41,16 +41,8 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="{{ url ('assets/css/style.css')}}">
 
-	<script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-      
-    <script type="text/javascript">
-        $(document).ready(()=>{
-            $("#select").val('');
-        });     
-    </script>
-    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>    
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>

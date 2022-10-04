@@ -1,3 +1,5 @@
+<!DOCTYPE >
+<html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,7 +86,8 @@
 
 </style>
 	
-	<div id="page">
+<br>
+	<div id="page" >
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
@@ -93,12 +96,12 @@
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
 						<li><a href="/">Inicio</a></li>
-						<li><a href="/story">Nossa História</a></li>
-						<li>
+						<li><a href="/story" class="nav-link px-2 link-light">Nossa História</a></li>
+						<li class="has-dropdown">
 							<a href="/event">O evento</a>
 			
 						</li>
-						<li>
+						<li class="has-dropdown">
 						<a href="/galery">Galeria</a>
 					
 						</li>
@@ -131,13 +134,6 @@
 										<span>17:00 PM</span>
 									
 									</div>
-									<div id="owl-demo" class="owl-carousel owl-theme">
- 
-  <div class="item"><img src="../assets/images/couple-5.jpg" alt="The Last of us"></div>
-  <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
-  <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
- 
-</div>
 									
 									<div class="event-col">
 										<i class="icon-calendar"></i>
@@ -193,3 +189,4 @@
 	<script src="{{ url ('assets/js/main.js')}}"></script>
 
 </body>
+</html>

@@ -58,7 +58,7 @@
 
 	<style>
     body{
-        background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 97%)), url('../assets/images/img_bg_3.jpg');
+        background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 95%)), url('../assets/images/img_bg_3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;  
@@ -83,7 +83,7 @@
 
 </style>
 	<br>
-	<div id="page" >
+	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
@@ -91,13 +91,13 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li><a href="/">Inicio</a></li>
-						<li><a href="/story" class="nav-link px-2 link-light">Nossa História</a></li>
-						<li class="has-dropdown">
+						<li class="active"><a href="/">Inicio</a></li>
+						<li><a href="/story">Nossa História</a></li>
+						<li>
 							<a href="/event">O evento</a>
 			
 						</li>
-						<li class="has-dropdown">
+						<li>
 						<a href="/galery">Galeria</a>
 					
 						</li>
@@ -110,7 +110,25 @@
 			
 		</div>
 	</nav>
+	<!-- <div class="container">
+            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
+              
+        
+              <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
+                <li><a href="/" class="nav-link px-2 gold-color">INÍCIO</a></li>
+                <li><a href="/story" class="nav-link px-2 link-primary" style="background-color: #2B2929">NOSSA HISTÓRIA</a></li>
+                <li><a href="/event" class="nav-link px-2 link-light">O EVENTO</a></li>
+                <li><a href="/presents" class="nav-link px-2 link-light">LISTA DE PRESENTES</a></li>
+                <li><a href="/galery" class="nav-link px-2 link-light">GALERIA</a></li>
+                
+                <li><a href="/contact" class="nav-link px-2 link-light">CONTATO</a></li>
+              </ul>
 
+              
+        
+              
+            </header>
+        </div> -->
 	<!-- <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container"> -->
@@ -122,7 +140,7 @@
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-3">
-							<div class="col-md-8 col-sm-8 text-center">
+							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box-center">
 								<h1 class="py-3 fs-2 mx-auto text-light py-2" style="letter-spacing:3px">NOSSA HISTÓRIA</h1>
 									</div>
@@ -237,7 +255,7 @@
                 </div>
             </div>
   
-</div>
+			</div>
 
                                 </div>
 							</div>
