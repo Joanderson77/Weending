@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.5);
 }
 .fh5co-cover > .fh5co-container {
@@ -322,12 +323,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 100vh;
   }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 100vh;
   display: table;
   width: 100%;
 }
@@ -978,10 +979,10 @@ select option {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 87px;
+  height: 89px;
   background: rgba(241, 78, 149, 0.8);
-  margin: 0 4px;
+  margin: 0 px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1017,7 +1018,7 @@ select option {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 25px;
   /* amounts */
 }
 

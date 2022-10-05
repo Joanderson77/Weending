@@ -51,39 +51,19 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
-	</head>
-	<body>
-		
 	<style>
     body{
-        background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 1%)), url('../assets/images/img_bg_2.jpg');
+        background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 3%)), url('../assets/images/img_bg_2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;  
     }
-    .slick-dots li button, .slick-dots li.slick-active button:before{
-        color: #fff !important;
-    }
-    .slick-dots li button:before{
-        color: #8b8b8b !important;
-    }
-
-    @media  screen and (max-width: 767px){
-        button.slick-next.slick-arrow, button.slick-prev.slick-arrow{
-            display: none !important;
-        }
-    }
-
-    .outer-border{
-        width: 100%;
-        max-width: 50vw;
-    }
-
 </style>
-	
+	</head>
+	<body>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner"  data-stellar-background-ratio="0.5">
+	<div id="fh5co-header" class="fh5co-cover" role="banner"  data-stellar-background-ratio="0.5">
+	<!-- <header id="fh5co-header" class="fh5co-cover" role="banner"  data-stellar-background-ratio="0.5"> -->
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -95,7 +75,6 @@
 							<div class="simply-countdown simply-countdown-one"></div>
 							<div class="d-grid gap-2 d-md-flex justify-content-md-center">
 							<a href="/presents" class="btn btn-default btn-sm">Lista de presentes</a>
-							<!-- <a href="/event" class="btn btn-default btn-sm">O evento</a> -->
 							<a href="/story" class="btn btn-default btn-sm">Nossa História</a>
 							</div>
 						</div>
@@ -103,16 +82,9 @@
 				</div>
 			</div>
 		</div>
-	</header>
-	
-	<footer class="background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 1%))">
-		
-	</footer>
+	<!-- </header> -->
 
-	<!-- <div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div> -->
-	
+
 	<!-- jQuery -->
 	<script src="{{ url ('assets/js/jquery.min.js')}}"></script>
 	<!-- jQuery Easing -->

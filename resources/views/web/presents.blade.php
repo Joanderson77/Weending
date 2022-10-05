@@ -83,34 +83,8 @@
     }
 
 </style>
-	<!-- <br>
-	<div id="page" >
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li><a href="/">Inicio</a></li>
-						<li><a href="/story" class="nav-link px-2 link-light">Nossa História</a></li>
-						<li class="has-dropdown">
-							<a href="/event">O evento</a>
-			
-						</li>
-						<li class="has-dropdown">
-						<a href="/galery">Galeria</a>
-					
-						</li>
-                        <li><a href="/presents">Lista de Presentes</a></li>
-						<li><a href="/contact">Contato</a></li>
-                        
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav> -->
+	
+	<div style="overflow-x: hidden">
 
 	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
