@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="{{ url ('assets/css/bootstrap.css')}}">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="{{ url ('assets/css/magnific-popup.css')}}">
@@ -82,7 +83,7 @@
     }
 
 </style>
-	<br>
+	<!-- <br>
 	<div id="page" >
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -109,7 +110,27 @@
 			</div>
 			
 		</div>
-	</nav>
+	</nav> -->
+
+	<div class="container">
+            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
+              
+        
+              <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
+                <li><a href="/" class="nav-link px-2 gold-color" style="background: transparent">INÍCIO</a></li>
+                <li><a href="/story" class="nav-link px-2 link-primary" style="background: transparent">NOSSA HISTÓRIA</a></li>
+                <li><a href="/event" class="nav-link px-2 link-primary" style="background: transparent">O EVENTO</a></li>
+                <li><a href="/presents" class="nav-link px-2 link-primary" style="background: transparent">LISTA DE PRESENTES</a></li>
+                <li><a href="/galery" class="nav-link px-2 link-primary" style="background: transparent">GALERIA</a></li>
+                
+                <li><a href="/contact" class="nav-link px-2 link-primary" style="background: transparent">CONTATO</a></li>
+              </ul>
+
+              
+        
+              
+            </header>
+        </div>
 
     <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>

@@ -82,7 +82,7 @@
     }
 
 </style>
-	<br>
+	<!-- <br>
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -109,26 +109,26 @@
 			</div>
 			
 		</div>
-	</nav>
-	<!-- <div class="container">
+	</nav> -->
+	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
               
         
               <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
-                <li><a href="/" class="nav-link px-2 gold-color">INÍCIO</a></li>
-                <li><a href="/story" class="nav-link px-2 link-primary" style="background-color: #2B2929">NOSSA HISTÓRIA</a></li>
-                <li><a href="/event" class="nav-link px-2 link-light">O EVENTO</a></li>
-                <li><a href="/presents" class="nav-link px-2 link-light">LISTA DE PRESENTES</a></li>
-                <li><a href="/galery" class="nav-link px-2 link-light">GALERIA</a></li>
+                <li><a href="/" class="nav-link px-2 gold-color" style="background: transparent">INÍCIO</a></li>
+                <li><a href="/story" class="nav-link px-2 link-primary" style="background: transparent">NOSSA HISTÓRIA</a></li>
+                <li><a href="/event" class="nav-link px-2 link-primary" style="background: transparent">O EVENTO</a></li>
+                <li><a href="/presents" class="nav-link px-2 link-primary" style="background: transparent">LISTA DE PRESENTES</a></li>
+                <li><a href="/galery" class="nav-link px-2 link-primary" style="background: transparent">GALERIA</a></li>
                 
-                <li><a href="/contact" class="nav-link px-2 link-light">CONTATO</a></li>
+                <li><a href="/contact" class="nav-link px-2 link-primary" style="background: transparent">CONTATO</a></li>
               </ul>
 
               
         
               
             </header>
-        </div> -->
+        </div>
 	<!-- <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container"> -->
@@ -152,10 +152,16 @@
       <img src="../assets/images/couple-1.jpg" class="img-teste mx-auto" alt="">
     </div>
     <div class="carousel-item">
-      <img src="../assets/images/couple-5.jpg" class="img-teste mx-auto" alt="">
+      <img src="../assets/images/couple-2.jpg" class="img-teste mx-auto" alt="">
     </div>
     <div class="carousel-item">
-      <img src="../assets/images/couple-6.jpg" class="img-teste mx-auto" alt="">
+      <img src="../assets/images/couple-3.jpg" class="img-teste mx-auto" alt="">
+    </div>
+	<div class="carousel-item">
+      <img src="../assets/images/couple-4.jpg" class="img-teste mx-auto" alt="">
+    </div>
+	<div class="carousel-item">
+      <img src="../assets/images/couple-5.jpg" class="img-teste mx-auto" alt="">
     </div>
   </div>
 </div>

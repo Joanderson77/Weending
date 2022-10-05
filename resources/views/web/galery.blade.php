@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="{{ url ('assets/css/icomoon.css')}}">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="{{ url ('assets/css/bootstrap.css')}}">
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="{{ url ('assets/css/magnific-popup.css')}}">
 
@@ -79,7 +79,7 @@
 
 </style>
 	
-	<div id="page">
+	<!-- <div id="page">
 	<nav class="fh5co-nav" role="navigation" >
 		<div class="container">
 			<div class="row">
@@ -107,7 +107,21 @@
 			</div>
 			
 		</div>
-	</nav>
+	</nav> -->
+
+	<div class="container">
+            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
+  
+              <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
+                <li><a href="/" class="nav-link px-2 gold-color" style="background: transparent">INÍCIO</a></li>
+                <li><a href="/story" class="nav-link px-2 link-primary" style="background: transparent">NOSSA HISTÓRIA</a></li>
+                <li><a href="/event" class="nav-link px-2 link-primary" style="background: transparent">O EVENTO</a></li>
+                <li><a href="/presents" class="nav-link px-2 link-primary" style="background: transparent">LISTA DE PRESENTES</a></li>
+                <li><a href="/galery" class="nav-link px-2 link-primary" style="background: transparent">GALERIA</a></li>
+                <li><a href="/contact" class="nav-link px-2 link-primary" style="background: transparent">CONTATO</a></li>
+              </ul>
+            </header>
+        </div>
 
 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
@@ -117,33 +131,77 @@
 					<h2>Nossas Memórias</h2>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-				
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-1.jpg')}}); "> 
-					</li>
-					<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-2.jpg')}}); ">
-					</li>
-					<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-3.jpg')}}); ">	
-					</li>
-					<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-4.jpg')}}); ">
-						
-					</li>
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-5.jpg')}}); ">
-						</li>
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-6.jpg')}}); ">
-						</li>
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-7.jpg')}}); ">
-						</li>
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-8.jpg')}}); "> 
-						</li>
-						<li class="one-third animate-box"  style="background-image: url({{ url ('assets/images/gallery-9.jpg')}}); ">
-						</li>
-					</ul>		
-				</div>
-			</div>
+			<!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img loading="lazy"
+      src="assets/images/gallery-1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="assets/images/gallery-2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/gallery-3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="assets/images/gallery-5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/gallery-6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets/images/gallery-4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/img_bg_2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets/images/img_bg_3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/Gallery-8.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets/images/img_bg_3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+<!-- Gallery -->
 		</div>
 	</div>
 	

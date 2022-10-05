@@ -55,9 +55,35 @@
 	</head>
 	<body>
 		
+	<style>
+    body{
+        background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 1%)), url('../assets/images/img_bg_2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .slick-dots li button, .slick-dots li.slick-active button:before{
+        color: #fff !important;
+    }
+    .slick-dots li button:before{
+        color: #8b8b8b !important;
+    }
+
+    @media  screen and (max-width: 767px){
+        button.slick-next.slick-arrow, button.slick-prev.slick-arrow{
+            display: none !important;
+        }
+    }
+
+    .outer-border{
+        width: 100%;
+        max-width: 50vw;
+    }
+
+</style>
 	
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(assets/images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner"  data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -78,12 +104,14 @@
 			</div>
 		</div>
 	</header>
+	
+	<footer class="background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 1%))">
+		
+	</footer>
 
-	<footer></footer>
-
-	<div class="gototop js-top">
+	<!-- <div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+	</div> -->
 	
 	<!-- jQuery -->
 	<script src="{{ url ('assets/js/jquery.min.js')}}"></script>
