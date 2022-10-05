@@ -23,6 +23,9 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 	
 	<!-- Animate.css')}} -->
 	<link rel="stylesheet" href="{{ url ('assets/css/animate.css')}}">
@@ -168,43 +171,11 @@
 
 	</div>
 
-	<!-- <br>
-	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-	<h3 class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 gold-color" style="letter-spacing: 3px !important">2013</h3>
-    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-2" >
-	NOS CONHECÍAMOS HÁ MUITO TEMPO, MAS NUNCA HAVIAMOS SENTIDO NADA UM
-                                        PELO OUTRO ALÉM DE AMIZADE.
-                                        MAS A HISTÓRIA MUDOU QUANDO AMBOS
-                                        COMEÇAMOS A PARTICIPAR EM CONSTRUÇÕES.
-                                        ASSIM, FOMOS NOS APROXIMANDO CADA VEZ MAIS.
-	</p>
-    </div>
-    <div class="carousel-item">
-	<h3 class="wedding-font font-weight-bold text-center mx-auto text-uppercase lh-2 fs-2 py-2 gold-color" style="letter-spacing: 3px !important">2013</h3>
-	<p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-2" >
-	NA ULTIMA CONSTRUÇÃO QUE PARTICIPAMOS,
-                                        NO DIA DE LAZER, ALGO EM MATEUS ME CHAMOU A ATENÇÃO.
-                                        MAINHA JÁ FALAVA DESDE O COMEÇO QUE AINDA IRIA CASAR COM ELE.
-
-
-	  </p>
-    </div>
-    <div class="carousel-item">
-	<h3 class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 gold-color" style="letter-spacing: 3px !important">2013</h3>
-      <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-2" >
-	  BEM COMEÇAMOS A NOS FALAR PELO WHATSAPP EU A CHAMAVA DE MINHA QUERIDA,
-      ALGUM TEMPO DEPOIS ELA SE TORNOU MINHA SAUDADE DIÁRIA,
-      E POR FIM O MEU AMOR!
-	  </p>
-    </div>
-  </div> -->
   <br>
             <div class="container multiple-items col-md-12 mx-auto d-flex text-light justify-content-center align-items-center" style="text-align: justify;">
                 <div>
                     <h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">2017</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					NOS CONHECÍAMOS HÁ MUITO TEMPO, MAS NUNCA HAVIAMOS SENTIDO NADA UM
                                         PELO OUTRO ALÉM DE AMIZADE.
                                         MAS A HISTÓRIA MUDOU QUANDO AMBOS
@@ -214,7 +185,7 @@
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">ELA</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					NA ULTIMA CONSTRUÇÃO QUE PARTICIPAMOS,
                                         NO DIA DE LAZER, ALGO EM MATEUS ME CHAMOU A ATENÇÃO.
                                         MAINHA JÁ FALAVA DESDE O COMEÇO QUE AINDA IRIA CASAR COM ELE.
@@ -222,7 +193,7 @@
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">ELE</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					BEM COMEÇAMOS A NOS FALAR PELO WHATSAPP EU A CHAMAVA DE MINHA QUERIDA,
      				 ALGUM TEMPO DEPOIS ELA SE TORNOU MINHA SAUDADE DIÁRIA,
       				E POR FIM O MEU AMOR!
@@ -230,7 +201,7 @@
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">ELE</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					5 DE MARÇO DE 2021, FOI UM DIA ESPECIAL. ALI OFICIALMENTE
                                          COMEÇOU A NOSSA HISTÓRIA.
 
@@ -239,7 +210,7 @@
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">ELA</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					5 DE MARÇO. SIM ESSE DIA ALÉM DE SER MUITO IMPORTANTE FOI MUITO ESPECIAL, POIS EMBORA JÁ NOS FALÁVAMOS POR UM BOM TEMPO
                         ESTÁVAMOS NA PANDEMIA E JÁ FAZIA MUITO TEMPO QUE NÃO NOS VÍAMOS PESSOALMENTE.
 
@@ -248,12 +219,12 @@
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">ELA</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					23 DE JULHO DE 2022, APÓS UM JANTAR EM FAMÍLIA O DIA SE TORNOU AINDA MAIS ESPECIAL, ELE ME SURPREENDEU COM O PEDIDO DE CASAMENTO E CLARO EU DISSE SIM!
                 </div>
                 <div>
 				<h3 style="font-size: 18px; font-weight: bold; text-primary !important" class="wedding-font text-center mx-auto text-uppercase lh-2 fs-2 py-2 text-info" style="letter-spacing: 3px !important">CARREGANDO...</h3>
-                    <p style="font-size: 16px; font-weight: bold !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
+                    <p style="font-size: 16px; font-family: Nunito !important" class="text-break x-auto lead col-md-12 mx-auto border-secondary border-bottom border-top py-auto py-3" >
 					ENFIM, EM MENOS DE 45 DIAS SEREMOS APENAS UM! SENHOR E
                                         SENHORA OLIVEIRA. SIM PRA SEMPRE EU VOCÊ E JEOVÁ!
 
