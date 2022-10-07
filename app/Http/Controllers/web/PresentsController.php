@@ -5,17 +5,17 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Iten;
-use App\Gategory;
+use App\Categoria;
 
 class PresentsController extends Controller
 {
 
     private $iten;
-    private $gategory;
+    private $categoria;
 
-    public function __construct(Iten $iten, Gategory $gategory){
+    public function __construct(Iten $iten, categoria $categoria){
         $this->iten = $iten;
-        $this->gategory = $gategory;
+        $this->categoria = $categoria;
     }
 
     public function presents(){
@@ -25,9 +25,9 @@ class PresentsController extends Controller
         return view('web.presents', compact('itens'));
     }
 
-    public function gategories($id){
-        $iten = Iten::where('id_categories', $id)->get();
-        return view('web.gategorie', compact('iten'));
+    public function categoria($id){
+        $itens = Iten::where('id_categoria', $id)->get();
+        return view('web.categoria', compact('itens'));
     }
 
     public function destroy($id) {
@@ -52,7 +52,7 @@ class PresentsController extends Controller
             
         ]);
         
-        return redirect()->back();
+        return view('web.mensagem');
         
 
     }

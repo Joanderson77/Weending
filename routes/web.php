@@ -22,11 +22,12 @@ Route::get('/event', 'web\EventController@event');
 Route::get('/story', 'web\StoryController@story');
 Route::get('/galery', 'web\GaleryController@galery');
 Route::get('/contact', 'web\ContactController@contact');
+Route::get('/mensagem', 'web\MensagemController@mensagem');
 Route::get('/presents', 'web\PresentsController@presents');
 Route::get('/gategories/{id}','web\PresentsController@gategories');
 Route::get('/destroy/{id}','web\PresentsController@destroy');
 Route::get('/concluir/{id}','web\PresentsController@concluir')->name('web.concluir');
-Route::get('/gategorie/{id}', [PresentsController::class, 'gategorie'])->name('web.gategorie');
+Route::get('/categoria/{id}', 'web\PresentsController@categoria');
 
 
 Route::get('/destroy/iten/{id}', 'PresentsController@destroy');

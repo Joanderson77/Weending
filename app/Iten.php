@@ -15,6 +15,6 @@ class Iten extends Model
     }
     public function categoria()
     {
-        return $this->belongsToMany(Category::class, 'id_categories');
+        return $this->belongsToMany(Categoria::class, 'id_categoria');
     }
 }

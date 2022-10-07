@@ -78,36 +78,6 @@
     }
 
 </style>
-	
-	<!-- <div id="page">
-	<nav class="fh5co-nav" role="navigation" >
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-                    <li>
-						<a href="/">Inicio</a>
-						</li>
-						<li><a href="/story">Nossa História</a></li>
-						<li>
-							<a href="/event">O evento</a>
-			
-						</li>
-						<li>
-						<a href="/galery">Galeria</a>
-					
-						</li>
-                        <li><a href="/presents">Lista de Presentes</a></li>
-						<li><a href="/contact">Contato</a></li>
-                        
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav> -->
 
 	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
@@ -195,7 +165,33 @@
     />
 
     <img
-      src="assets/images/img_bg_3.jpg"
+      src="assets/images/Gallery-9.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/Gallery-10.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets/images/Gallery-11.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/Gallery-12.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="assets/images/Gallery-14.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />

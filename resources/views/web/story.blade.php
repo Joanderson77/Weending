@@ -135,10 +135,10 @@
 	<!-- <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container"> -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-7 col-md-offset-1 text-center fh5co-heading animate-box">
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">

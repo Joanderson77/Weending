@@ -22,6 +22,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 	
 	<!-- Animate.css')}} -->
 	<link rel="stylesheet" href="{{ url ('assets/css/animate.css')}}">
@@ -84,7 +85,7 @@
 
 </style>
 	
-	<div style="overflow-x: hidden">
+	<div style="overflow-x: hidden" id="fontgeral">
 
 	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
@@ -109,10 +110,10 @@
     <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-7 col-md-offset-2 text-center fh5co-heading animate-box">
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
@@ -122,63 +123,26 @@
 									<h3>Lista de Presentes</h3>
 					
 									
-									<p>OLÁ CASO QUEIRA NOS PRESENTAR NESTE DIA TÃO IMPORTANTE DA NOSSA VIDA,
+									<p style="font-family: Nunito !important">OLÁ CASO QUEIRA NOS PRESENTAR NESTE DIA TÃO IMPORTANTE DA NOSSA VIDA,
                                             PODERÁ ESCOLHER UM ITEM DA NOSSA LISTA. DESDE JÁ AGRADECEMOS!</p>
                                   
                                             
-  <label for="" class="label-wedding gold-color fw-bold fs-5">Escolha um item</label>         
-  <table class="table table-bordered table-dark">
-  <thead>
-    <tr class="bg-primary">
-      <th scope="col">Descrição</th>
-      <th scope="col">Ação</th>
-    </tr>
-  </thead>
-  <tbody>
-	@foreach($itens as $iten)
-	@if($iten->qtd>=1)
-    <tr class="bg-warning">
-      <td>{{$iten->description}}</td>
-      <td>
-	  <a class="btn btn-info"  onclick="return confirm('Confirma a escolha do item {{$iten->description}}')" href="concluir/{{ $iten->id }}">Escolher</a>
-	  </td>
-	  @endif
-	  @endforeach
-    </tr>
-   
-  </tbody>
-</table>
-
-	
-											<!-- @foreach($itens as $iten)				
-	<form  method="get" action="{{url('concluir', ['iten' =>$iten->id])}}">
-		@endforeach
-	<div class="row">										
-	<div class="form-group">
-		
-   		 <label for="" class="label-wedding gold-color fw-bold fs-5">Escolha um item</label>
-	
-		<select id="select" name="iten" value="{{csrf_token()}}" required class="rounded-0 bg-transparent form-control form-control-lg fw-bold text-light"  aria-label=".form-control-lg example">
-	
-		<option value="" selected disabled>Selecione um item</option>
-		@foreach($itens as $iten)	
-		@if($iten->qtd >=1)
-		<option class="text-dark" value="{{$iten->id}}">{{$iten->description}}</option>	
-		@endif
-		
-		@endforeach	
-				</select>
-				<button href="concluir/{{ $iten->id }}" class="btn btn-danger" type="submit">Teste</button>
-				<a class="btn btn-danger"  onclick="return confirm('Confirma a escolha do item {{$iten->description}}')" href="concluir/{{ $iten->id }}">Delete</a>
-		
-			
-				<button href="concluir/{{ $iten->id }}" class="btn btn-danger" type="submit">Teste</button> -->
-					
+  <label for="" style="font-family: Nunito; font-size: 14px !important" class="label-wedding gold-color fw-bold fs-5">SELECIONE UMA CATEGORIA:</label>         
+ 
+<div class="btn-group dropup">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Escolha uma Categoria
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	@foreach($categoriasMenu as $categoriasM)
+    <a style="font-size: 25px" class="dropdown-item" href="categoria/ {{$categoriasM->id}}">{{$categoriasM->name}}</a>
+    @endforeach
+  </div>
+</div>				
 				
 		
   								</div>
                                 </div>
-								<!-- </form> -->
 							</div>
 						</div>
 					</div>
