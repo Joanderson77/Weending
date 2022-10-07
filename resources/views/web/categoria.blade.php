@@ -159,12 +159,7 @@
 			</div>
 		</div>
 	</div>
-    <footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-
-		</div>
-	</footer>
-	
+   
 
     <!-- jQuery -->
 	<script src="{{ url ('assets/js/jquery.min.js')}}"></script>

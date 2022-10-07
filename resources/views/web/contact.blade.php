@@ -133,9 +133,9 @@
 									</div>
 									<p>Poderá entrar em contato conosco para mais detalhes!</p>
                         <ul class="fh5co-social-icons">
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+							<li><a href="https://instagram.com/lariaandrade_?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/lojaboutiquedalari/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://api.whatsapp.com/send?phone=5574988298611"><i class="fa fa-whatsapp"></i></a></li>
 						</ul>
 						
                                 </div>
