@@ -102,7 +102,7 @@
 				</div>
 			</div>
 			<!-- Gallery -->
-<div class="row">
+<div class="row" id="gallery">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img loading="lazy"
       src="assets/images/gallery-1.jpg"
@@ -110,7 +110,7 @@
       alt="Boat on Calm Water"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/gallery-2.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Wintry Mountain Landscape"
@@ -118,13 +118,13 @@
   </div>
 
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/gallery-3.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Mountains in the Clouds"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/gallery-5.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
@@ -132,65 +132,60 @@
   </div>
 
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/gallery-6.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/gallery-4.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />
   </div>
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/img_bg_2.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/img_bg_3.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />
   </div>
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/Gallery-8.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
 
-    <img
-      src="assets/images/Gallery-9.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
   </div>
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/Gallery-10.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/Gallery-11.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />
   </div>
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
+    <img loading="lazy"
       src="assets/images/Gallery-12.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
 
-    <img
+    <img loading="lazy"
       src="assets/images/Gallery-14.jpg"
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
@@ -200,6 +195,41 @@
 <!-- Gallery -->
 		</div>
 	</div>
+
+  <script type="text/javascript">
+    var gallery = document.querySelector('#gallery');
+    var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+    var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+    var resizeAll = function () {
+        var altura = getVal(gallery, 'grid-auto-rows');
+        var gap = getVal(gallery, 'grid-row-gap');
+        gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+            var el = item;
+            el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+        });
+    };
+    gallery.querySelectorAll('img').forEach(function (item) {
+        item.classList.add('byebye');
+        if (item.complete) {
+            console.log(item.src);
+        }
+        else {
+            item.addEventListener('load', function () {
+                var altura = getVal(gallery, 'grid-auto-rows');
+                var gap = getVal(gallery, 'grid-row-gap');
+                var gitem = item.parentElement.parentElement;
+                gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+                item.classList.remove('byebye');
+            });
+        }
+    });
+    window.addEventListener('resize', resizeAll);
+    gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+        item.addEventListener('click', function () {        
+            item.classList.toggle('full');        
+        });
+    });
+</script>
 	
 	<!-- jQuery -->
 	<script src="{{ url ('assets/js/jquery.min.js')}}"></script>

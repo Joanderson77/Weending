@@ -124,8 +124,7 @@
 					
 									
 									<p style="font-family: Nunito; font-size: 14px !important">AGORA QUE VOCÊ ESCOLHEU A CATEGORIA, FIQUE A VONTADE PARA ESCOLHER O PRESENTE QUE DESEJAR. DESDE JÁ AGRADECEMOS!</p>
-                                  
-                                            
+                                                                      
   <label for="" style="font-family: Nunito; font-size: 14px !important" class="label-wedding gold-color fw-bold fs-5">ESCOLHA UM ITEM</label>         
   <table class="table table-striped table-dark">
   <thead>
