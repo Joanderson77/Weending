@@ -138,7 +138,8 @@
     <a style="font-size: 25px" class="dropdown-item" href="categoria/ {{$categoriasM->id}}">{{$categoriasM->name}}</a>
     @endforeach
   </div>
-</div>				
+</div>			
+
 				
 		
   								</div>
