@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class GaleryController extends Controller
 {
     public function galery(){
-        return view('web.galery');
+        return view('web.newGallery');
     }
 }
