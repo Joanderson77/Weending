@@ -54,11 +54,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-
 	<style>
     body{
         background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 95%)), url('../assets/images/img_bg_3.jpg');
@@ -83,8 +78,26 @@
         width: 100%;
         max-width: 50vw;
     }
+	li {
+			margin: 0 2px 0 2px;
+		}
+		li a {
+			color: #fff !important;
+			background: transparent !important;
+			font-family: 'Playfair Display', serif !important;
+			font-size: 12pt;
+		}
+		li a:hover {
+			color: #F14E95 !important;
+		}
 
 </style>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
+	
 
 	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
@@ -131,7 +144,8 @@
 										<span>Dia 15</span>
 										<span>Novembro, 2022</span>
 									</div>
-									<p>Poderá entrar em contato conosco para mais detalhes!</p>
+									<p style=" font-size: 16px">PODERÁ ENTRAR EM CONTATO CONOSCO 
+									PARA MAIS DETALHES!</p>
                         <ul class="fh5co-social-icons">
 							<li><a href="https://instagram.com/lariaandrade_?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a></li>
 							<li><a href="https://www.facebook.com/lojaboutiquedalari/"><i class="fa fa-facebook"></i></a></li>

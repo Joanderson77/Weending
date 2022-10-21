@@ -50,11 +50,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-
 	<style>
     body{
         background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 90%)), url('../assets/images/img_bg_3.jpg');
@@ -79,36 +74,27 @@
         width: 100%;
         max-width: 50vw;
     }
+	li {
+			margin: 0 2px 0 2px;
+		}
+		li a {
+			color: #fff !important;
+			background: transparent !important;
+			font-family: 'Playfair Display', serif !important;
+			font-size: 12pt;
+		}
+		li a:hover {
+			color: #F14E95 !important;
+		}
 
 </style>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
+	<div style="overflow-x: hidden" id="fontgeral">
 	
-	<!-- <div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="/">Inicio</a></li>
-						<li><a href="/story">Nossa História</a></li>
-						<li>
-							<a href="/event">O evento</a>
-			
-						</li>
-						<li>
-						<a href="/galery">Galeria</a>
-					
-						</li>
-                        <li><a href="/presents">Lista de Presentes</a></li>
-						<li><a href="/contact">Contato</a></li>
-                        
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav> -->
 	<div class="container">
             <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
               
@@ -141,7 +127,7 @@
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-3">
-							<div class="col-md-6 col-sm-6 text-center">
+							<div class="col-md-6 text-center d-flex flex-column">
 								<div class="event-wrap animate-box-center">
 									<h3>A cerimonia</h3>
 									<div class="event-col">
@@ -154,7 +140,7 @@
 										<span>DIA 15</span>
 										<span>NOVEMBRO, 2022</span>
 									</div>
-									<p>OLÁ QUERIDO(A) AMIGO (A)! É COM MUITA ALEGRIA QUE CONVIDAMOS VOCÊ E SUA FAMÍLIA PARA ASSISTIR A TRANSMISSÃO DESSE DIA TÃO ESPECIAL. O CASAMENTO SERÁ TRANSMITIDO NO APLICATIVO DE VIDEOCONFERÊNCIA "ZOOM" ÀS 17H DO DIA 15/11/2022. QUANDO ESTIVER MAIS PRÓXIMO DA DATA SERÁ CRIADO UM GRUPO NO WHATSAPP PARA MAIS INFORMAÇÕES E DISPONIBILIZAÇÃO DO LINK DA CERIMÔNIA. CONTAMOS COM A SUA CONEXÃO! 
+									<p style="font-family: Nunito; font-size: 16px">OLÁ QUERIDO(A) AMIGO (A)! É COM MUITA ALEGRIA QUE CONVIDAMOS VOCÊ E SUA FAMÍLIA PARA ASSISTIR A TRANSMISSÃO DESSE DIA TÃO ESPECIAL. O CASAMENTO SERÁ TRANSMITIDO NO APLICATIVO DE VIDEOCONFERÊNCIA "ZOOM" ÀS 17H DO DIA 15/11/2022. QUANDO ESTIVER MAIS PRÓXIMO DA DATA SERÁ CRIADO UM GRUPO NO WHATSAPP PARA MAIS INFORMAÇÕES E DISPONIBILIZAÇÃO DO LINK DA CERIMÔNIA. CONTAMOS COM A SUA CONEXÃO! 
 										🧡</p>
 								</div>
 							</div>
@@ -164,6 +150,7 @@
 			</div>
 		</div>
 	</div>
+	
 
     <footer id="fh5co-footer" role="contentinfo">
 		<div class="container">

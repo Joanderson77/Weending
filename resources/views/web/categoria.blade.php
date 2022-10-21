@@ -32,7 +32,8 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="{{ url ('assets/css/bootstrap.css')}}">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>	
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="{{ url ('assets/css/magnific-popup.css')}}">
 
@@ -52,12 +53,6 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-
 	<style>
     body{
         background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 95%)), url('../assets/images/img_bg_3.jpg');
@@ -82,30 +77,41 @@
         width: 100%;
         max-width: 50vw;
     }
+	li {
+			margin: 0 2px 0 2px;
+		}
+		li a {
+			color: #fff !important;
+			background: transparent !important;
+			font-family: 'Playfair Display', serif !important;
+			font-size: 12pt;
+		}
+		li a:hover {
+			color: #F14E95 !important;
+		}
 
 </style>
-	
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
 	<div style="overflow-x: hidden">
 
 	<div class="container">
-            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
-              
-        
-              <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
-                <li><a href="/" class="nav-link px-2 gold-color" style="background: transparent">INÍCIO</a></li>
-                <li><a href="/story" class="nav-link px-2 link-primary" style="background: transparent">NOSSA HISTÓRIA</a></li>
-                <li><a href="/event" class="nav-link px-2 link-primary" style="background: transparent">O EVENTO</a></li>
-                <li><a href="/presents" class="nav-link px-2 link-primary" style="background: transparent">LISTA DE PRESENTES</a></li>
-                <li><a href="/galery" class="nav-link px-2 link-primary" style="background: transparent">GALERIA</a></li>
-                
-                <li><a href="/contact" class="nav-link px-2 link-primary" style="background: transparent">CONTATO</a></li>
-              </ul>
-
-              
-        
-              
-            </header>
-        </div>
+		<header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
+			<ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
+			<li><a href="/" class="nav-link px-2 gold-color">INÍCIO</a></li>
+			<li><a href="/story" class="nav-link px-2" >NOSSA HISTÓRIA</a></li>
+			<li><a href="/event" class="nav-link px-2">O EVENTO</a></li>
+			<li><a href="/presents" class="nav-link px-2">LISTA DE PRESENTES</a></li>
+			<li><a href="/galery" class="nav-link px-2">GALERIA</a></li>
+			
+			<li><a href="/contact" class="nav-link px-2">CONTATO</a></li>
+			</ul>
+		</header>
+	</div>
 
     <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -126,9 +132,9 @@
 									<p style="font-family: Nunito; font-size: 14px !important">AGORA QUE VOCÊ ESCOLHEU A CATEGORIA, FIQUE A VONTADE PARA ESCOLHER O PRESENTE QUE DESEJAR. DESDE JÁ AGRADECEMOS!</p>
                                                                       
   <label for="" style="font-family: Nunito; font-size: 14px !important" class="label-wedding gold-color fw-bold fs-5">ESCOLHA UM ITEM</label>         
- <div style="max-height:300px;
+ <div id="btnUpdate" style="max-height:300px;
     overflow-x:auto;"> 
-  <table class="table table-striped table-dark">
+  <table id="btnUpdate"class="table table-striped table-dark">
   <thead>
     <tr class="bg-primary">
       <th scope="col">Descrição</th>
@@ -141,8 +147,9 @@
     <tr class="bg-warning">
       <td style="font-family: Nunito; font-size: 14px !important">{{$iten->description}}</td>
       <td>
-	  <a class="btn btn-info"  onclick="return confirm('Confirma a escolha do item {{$iten->description}}')" href="/concluir/{{ $iten->id }}">Escolher</a>
-	  </td>
+	  <a class="btn btn-info" onclick="return confirm('Confirma a escolha do item {{$iten->description}}')"  href="/concluir/{{ $iten->id }}">Escolher</a>
+	</td>
+
 	  @endif
 	  @endforeach
     </tr>

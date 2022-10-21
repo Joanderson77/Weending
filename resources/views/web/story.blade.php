@@ -54,11 +54,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-
 	<style>
     body{
         background:linear-gradient(0deg, rgba(39, 21, 21, 0.849), rgb(43 41 41 / 95%)), url('../assets/images/img_bg_3.jpg');
@@ -84,10 +79,29 @@
         max-width: 50vw;
     }
 
+	li {
+			margin: 0 2px 0 2px;
+		}
+		li a {
+			color: #fff !important;
+			background: transparent !important;
+			font-family: 'Playfair Display', serif !important;
+			font-size: 12pt;
+		}
+		li a:hover {
+			color: #F14E95 !important;
+		}
 </style>
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
+	<div style="overflow-x: hidden" id="fontgeral">
 	
 	<div class="container">
-            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-2 mb-4">
+            <header class="d-flex flex-wrap flex-column align-items-center justify-content-between py-3 mb-4">
               
         
               <ul class="nav border-bottom col-12 col-md-auto mx-auto mb-2 justify-content-center mb-md-0 wedding-font">
@@ -100,22 +114,13 @@
               </ul>
 
               
-        
-              
             </header>
         </div>
-	<!-- <div id="fh5co-event" role="banner"   data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container"> -->
-			<!-- <div class="row">
-				<div class="col-md-7 col-md-offset-1 text-center fh5co-heading animate-box">
-				</div>
-			</div> -->
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-3">
-							<div class="col-md-6 col-sm-6 text-center">
+						<div class="row justify-content-md-center">
+							<div class="col-md-6 text-center d-flex flex-column">
 								<div class="event-wrap animate-box-center">
 								<h1 class="py-3 fs-2 mx-auto text-light py-2" style="letter-spacing:3px">NOSSA HISTÓRIA</h1>
 									</div>
@@ -214,117 +219,8 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- <div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Nossa História</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-1.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">2017</h3>
-								</div>
-								<div class="timeline-body">
-									<p> NOS CONHECÍAMOS HÁ MUITO TEMPO, MAS NUNCA HAVIAMOS SENTIDO NADA UM
-                                        PELO OUTRO ALÉM DE AMIZADE.
-                                        MAS A HISTÓRIA MUDOU QUANDO AMBOS
-                                        COMEÇAMOS A PARTICIPAR EM CONSTRUÇÕES.
-                                        ASSIM, FOMOS NOS APROXIMANDO CADA VEZ MAIS.
-</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-2.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">ELA</h3>
-								</div>
-								<div class="timeline-body">
-									<p>Na ultima construção que participamos, 
-										no dia de lazer, algo em Mateus me chamou a atenção. 
-										Mainha já falava desde o começo que ainda iria casar com ele.
-</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-3.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">ELE</h3>
-								</div>
-								<div class="timeline-body">
-									<p>Bem começamos a nos falar pelo whatsapp eu a chamava de minha querida, 
-										algum tempo depois ela se tornou minha saudade diaria, 
-										e por fim o meu amor!</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-4.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Em um relacionamento</h3>
-								</div>
-								<div class="timeline-body">
-									<p>5 de Março de 2021, foi um dia especial. Ali oficialmente
-										 começou a nossa historia.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-5.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Noivado</h3>
-								</div>
-								<div class="timeline-body">
-									<p>23 de julho de 2022, após um jantar em familia o dia se tornou ainda mais especial, ele me surpreendeu com o pedido de casamento e claro eu disse sim!</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url({{ url ('assets/images/couple-6.jpg')}});"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Casamento</h3>
-								</div>
-								<div class="timeline-body">
-									<p>Enfim em menos de 60 dias seremos apenas um! Senhor e 
-										Senhora Oliveira. Sim pra sempre eu você e Jeová! </p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	<!-- <div class="container gallery">
-
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../assets/images/couple-6.jpg" class="img-teste xl-auto" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/images/couple-5.jpg" class="img-teste xl-auto" alt="">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/images/couple-4.jpg" class="img-teste xl-auto" alt="">
-    </div>
-  </div>
 </div>
 
-	</div> -->
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 
@@ -391,9 +287,7 @@ $(document).on('ready', function() {
 		  },
 	  },
 	],
-  //   draggable:false,
-  //   prevArrow:'<button class="btn btn-light ml-auto">-</button>',
-  //   nextArrow:'<button class="btn btn-dark">+</button>'
+ 
   });    
 });
 </script>

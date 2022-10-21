@@ -105,6 +105,7 @@
                 <img loading="lazy" src="assets/images/Gallery-12.jpg" class="" alt=""/>
                 <img loading="lazy" src="assets/images/Gallery-14.jpg" class="" alt=""/>
                 <img loading="lazy" src="assets/images/img_bg_2.jpg" class="" alt=""/>
+                <img loading="lazy" src="assets/images/img_bg_3.jpg" class="" alt=""/>
             </div>
         </section>
     </body>
